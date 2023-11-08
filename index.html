@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVAY - devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Poppins&family=Varela&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(133, 133, 160);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23 px;
+            padding: 23px;
+            cursor: pointer;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul :hover {
+            font-size: 1.2rem;
+            background-color: rgb(31, 28, 28);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .purple {
+            color: rgb(4, 0, 8);
+        }
+
+        .textgray {
+            color: rgb(253, 253, 253);
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(244, 243, 245);
+            height: 3.2px;
+            margin: 40px 84px;
+        }
+
+        #element {
+            color: rgb(10, 7, 14);
+        }
+
+        .first>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            background-image: url(bgg5.jpg);
+            font-size: 2.8rem;
+            margin: 70px 0px;
+        }
+        .leftsection .buttons{
+            padding: 50px 0px;
+        }
+
+        .leftsection .btn
+        {
+            padding: 12px;
+            background-color: rgb(44, 44, 51);
+            color: white;
+            border: 2px solid white;
+            border-radius: 3px;
+            font-size: 20px;
+            cursor: pointer ;
+
+        }
+        .btn :hover{
+
+        }
+
+        .rightsection img {
+            size: 100%;
+            width: 80%;
+            margin: 50px 0px;
+        }
+
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            color: rgb(58 3 107);
+            font-size: 1.7rem;
+        }
+
+        .box {
+            background: white;
+            width: 68vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 90px;
+        }
+        .image-top
+        {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+        .verticaltext{
+            color: black;
+            position: relative;
+            top: 70px;
+            width: 193px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 150px;
+            color: rgb(255, 255, 255));
+            right: 100px;
+            width: 150px;
+            font-size: 10px;
+
+        }
+        .footer{
+            background-color: black;
+        }
+
+        .footer{
+            display: flex;
+           padding: 23px 122px;
+           justify-content: space-evenly;
+
+        }
+        .footer >div{
+            width: 223px;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        footer .rights{
+            text-align: center;
+            color: yellow;
+            background-color: black;
+            padding: 20px;
+        }
+        .heading{
+            padding: 2px;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Advay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi my name is <span class="purple">Advay</span>
+                <div> I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GITHUB</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="background.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="textgray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="verticaltext">HTML developer (2010-2012)</div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorem quo dignissimos
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nodejs.png" alt="">
+                    <div class="verticaltext">Node js developer (2012-2014)</div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorem quo dignissimos
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="instagram.png" alt="">
+                    <div class="verticaltext">Web Designer Instagram(2014-2016)</div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorem quo dignissimos
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="verticaltext"> Full stack developer Youtube (2016-2018)</div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorem quo dignissimos
+                    
+                </div>
+               
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Advay's  Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul class="heading">
+                    <li>Company</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul class="heading">
+                    <li>Membership</li>
+                </ul>
+                <ul>
+                    <li>Help desk</li>
+                    <li>Join us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul class="heading">
+                    <li>Social Media</li>
+                </ul>
+                <ul>
+                    <li>Instagram </li>
+                    <li>twitter</li>
+                    <li>facebook</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">Copyright &#169 advaysportfolio.com|All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Coder', ' and Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
